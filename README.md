@@ -3,7 +3,7 @@
 ## AIM
 The thought behind creating this repository is to help people who run Linux and own a Logitech multi button mouse. This configuration file was created for Logitech MX Master 3 and was tested in Surface Laptop 3 running on Arch Linux with KDE Plasma. 
 
-## PRE-REQUISTIES 
+## PRE-REQUISITIES 
 Any Logitech mouse with secondary buttons (buttons other than left and right click and scroll wheel) interacts with the system using Hexadecimal code, ie, each button has a hexadecimal number assigned to it and we have to find each button’s hexadecimal code. Download and install [xdotool](https://blog.hostonnet.com/installation-of-xdotool-on-linux) in your system. 
 
 After successful installation of xdtool, run it through the terminal. A small window with a box will pop up. When you pass your mouse through the box, it auto-fills the terminal with the exact pixel coordinates on where the cursor is currently located. Position the cursor inside the box and press the all the buttons one by one. The terminal will be auto-filled with the button id of the button pressed. Mark all the ids of the buttons. It is also important to know the name of the mouse for identification. To find the name of the mouse (there is a name used differently by the system to identify different mice) use [Solaar](https://pwr-solaar.github.io/Solaar/) or even xdotool can help with that. 
